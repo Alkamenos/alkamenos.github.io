@@ -4,12 +4,19 @@
 <html lang="ru">
 <head>
     <title>About me | Leonid Artemev</title>
-    <link href="./static/css/fontello.css" rel="stylesheet">
-    <link href="./main.css" rel="stylesheet">
+    <link href="./static/fontello/css/fontello.css" rel="stylesheet">
+    <link href="./static/css/main-320.css" rel="stylesheet" type="text/css"/><!-- 320px -->
+    <link href="./static/css/main-480.css" media="screen and (min-width:480px)" rel="stylesheet" type="text/css"/>
+    <!-- 480px -->
+    <link href="./static/css/main-768.css" media="screen and (min-width:768px)" rel="stylesheet" type="text/css"/>
+    <!-- 768px -->
+    <link href="./static/css/main-1000.css" media="screen and (min-width:1000px)" rel="stylesheet" type="text/css"/>
+    <!-- 1024px -->
 
 
 </head>
 <body>
+
 <header>
     <ul>
         <li>
@@ -19,34 +26,35 @@
             <h2>Front-end developer</h2>
         </li>
     </ul>
+    <nav>
+        <section class="odd home current">
+            <a href="#">Главная</a>
+        </section>
+        <section class="even about">
+            <a href="#about">Обо мне</a>
+        </section>
+        <section class="odd skills">
+            <a href="#skills">Навыки</a>
+        </section>
+        <section class="even experience">
+            <a href="#experience">Опыт</a>
+        </section>
+        <section class="odd contacts">
+            <a href="#contacts">Контакты</a>
+        </section>
+        <!--<section class="even">
+            <a href="#contacts">Портфолио</a>
+        </section>-->
+    </nav>
+
 </header>
 
-<nav>
-    <section class="odd home current">
-        <a href="#">Главная</a>
-    </section>
-    <section class="even about">
-        <a href="#about">Обо мне</a>
-    </section>
-    <section class="odd skills">
-        <a href="#skills">Навыки</a>
-    </section>
-    <section class="even experience">
-        <a href="#experience">Опыт</a>
-    </section>
-    <section class="odd contacts">
-        <a href="#contacts">Контакты</a>
-    </section>
-    <section class="even">
-        <a href="#contacts">Портфолио</a>
-    </section>
-</nav>
 
 <div id="page">
-    <div id="contenet">
+    <div id="content">
 
         <article id="home">
-            <img src="photo.jpg">
+            <img src="./static/images/photo.jpg">
 
             <h3>Привет</h3>
             <br class="clear">
@@ -104,6 +112,9 @@
                         <p>2013 - 2015</p>
 
                         <p>Старший разработчик</p>
+
+                        <p class="description">HTML, Сanvas, AngularJS, PIXI JS, OpenTok, ActionScript, TypeScript, Maven</p>
+                        <p class="description">Сделал векторный экспорт (canvas => SVG), видеочат, систему презентаций, некоторые ключевые инструменты и другое. </p>
                     </li>
                     <li>
                         <a href="">MART-Online</a>
@@ -112,6 +123,8 @@
                         <p>2012 - 2013</p>
 
                         <p>Старший разработчик</p>
+                        <p class="description">Проектирование и разработка онлайн каталога товаров и услуг (Python, Django, Redis, Twitter Bootstrap). + Приложение для ВКонтакте (AS3 + PHP).</p>
+
                     </li>
                     <li>
                         <a href="http://sociality.pro">Sociality</a>
@@ -120,6 +133,7 @@
                         <p>2011 - 2012</p>
 
                         <p>Flash-программист</p>
+                        <p class="description">Разработка приложенний для социальных сетей (ActionScript 3)</p>
                     </li>
                     <li>
                         <a href="http://sinlid.ru">Синергия-Лидер</a>
@@ -128,6 +142,7 @@
                         <p>2010 - 2011</p>
 
                         <p>Инженер-программист</p>
+                        <p class="description">Разработка ПО для микроконтроллеров, ОВЕН, DirectLogic, Koyo Click и других.</p>
                     </li>
                 </ul>
             </div>
@@ -150,8 +165,7 @@
     </div>
 </div>
 <footer>
-
-        Front-end developer
+    2015 (c) Leonid Artemev
 </footer>
 
 </body>

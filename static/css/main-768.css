@@ -1,0 +1,48 @@
+html {
+    background: url('../images/html.gif') repeat-y center -200px;
+    overflow-x: hidden;
+    font-size: 65.5%;
+}
+
+body {
+    background: url('../images/body-home.gif') repeat-x 0 150px;
+    margin: 0;
+}
+
+header, article {
+    padding-left: 10%;
+    width: 90%;
+}
+
+#home{
+    padding-top: 0;
+}
+
+#home img{
+    max-height: 200px;
+    margin-bottom: 50px;
+}
+
+header ul{
+    float: left;
+    max-width: 340px;
+}
+
+header li {
+    width: 100%;
+}
+
+header nav{
+    float: right;
+    width: 50%;
+}
+
+article, footer {
+    width: 60%;
+}
+
+#experience .content{
+    padding-left: 10px;
+    background: #d4d4d4;
+}
+

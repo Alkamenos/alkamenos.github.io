@@ -1,0 +1,23 @@
+html {
+    font-size: 75.5%;
+}
+
+header nav{
+    float: right;
+    width: 40%;
+}
+
+header ul{
+    max-width: 400px;
+}
+
+
+#experience .description{
+    color: black;
+    display: block;
+    background-color: transparent;
+}
+
+article, footer {
+    width: 40%;
+}
