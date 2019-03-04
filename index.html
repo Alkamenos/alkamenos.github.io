@@ -1,224 +1,306 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<meta name="description" content="Личная страница, портфолио">
-<meta name="keywords" content="Alkamenos,Front-end,Front End development,HTML,HTML 5,CSS,CSS3,javascript,Canvas,jQuery,Responsive Design, Development, Web Development, web разработчик">
-<meta name="author" content="Alkamenos">
-
-<link rel="icon" type="image/png" href="static/images/favicons/cat/favicon.ico">
-<link rel="apple-touch-icon-precomposed" media="screen and (resolution: 163dpi)" href="static/images/favicons/cat/smiling-cat-57-206160.png">
-<link rel="apple-touch-icon-precomposed" media="screen and (resolution: 132dpi)" href="static/images/favicons/cat/smiling-cat-72-206160.png">
-<link rel="apple-touch-icon-precomposed" media="screen and (resolution: 326dpi)" href="static/images/favicons/cat/smiling-cat-114-206160.png">
-<link rel="image_src" href="http://alkamenos.github.io/static/images/photo250.jpg">
-
-<meta property="og:title" content="Leonid Artemev | Alkamenos">
-<meta property="og:image" content="http://alkamenos.github.io/static/images/photo250.jpg">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://alkamenos.github.io/">
-<meta property="og:description" content="Личная страница">
-
-<meta name="twitter:site" content="Леонид Артемьев | Alkamenos">
-<meta name="twitter:description" content="Личная страница">
-<meta name="twitter:image:src" content="http://alkamenos.github.io/static/images/photo250.jpg">
-<meta name="twitter:domain" content="http://alkamenos.github.io/">
-
-
-<html lang="ru">
+<html lang="en">
 <head>
-    <title>Leonid Artemev | Front-end Developer</title>
-
-    <link href="./static/fontello/css/fontello.css" rel="stylesheet">
-    <link href="./static/css/main-320.css" rel="stylesheet" type="text/css"/><!-- 320px -->
-    <link href="./static/css/main-480.css" media="screen and (min-width:480px)" rel="stylesheet" type="text/css"/>
-    <!-- 480px -->
-    <link href="./static/css/main-768.css" media="screen and (min-width:768px)" rel="stylesheet" type="text/css"/>
-    <!-- 768px -->
-    <link href="./static/css/main-1000.css" media="screen and (min-width:1000px)" rel="stylesheet" type="text/css"/>
-    <!-- 1024px -->
-
-
+	<meta charset="UTF-8">
+	<title>Леонид Артемьев - резюме</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
 <body>
+<main class="content">
+	<section class="left">
+		<section class="profile">
+			<div class="photo"></div>
+			<h2 class="name">Леонид Артемьев</h2>
+			<div class="job-title">Web-разработчик</div>
+		</section>
 
-<header>
-    <ul>
-        <li>
-            <h1>Леонид Артемьев</h1>
-        </li>
-        <li>
-            <h2>Front-end developer</h2>
-        </li>
-    </ul>
-    <nav>
-        <section class="odd home current">
-            <a href="#">Главная</a>
-        </section>
-        <section class="even about">
-            <a href="#about">Обо мне</a>
-        </section>
-        <section class="odd skills">
-            <a href="#skills">Навыки</a>
-        </section>
-        <section class="even experience">
-            <a href="#experience">Опыт</a>
-        </section>
-        <section class="odd contacts">
-            <a href="#contacts">Контакты</a>
-        </section>
-        <!--<section class="even">
-            <a href="#contacts">Портфолио</a>
-        </section>-->
-    </nav>
+		<section class="contacts">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Контакты</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<ul>
+				<li><span>+7 (922) 648 9666 </span><i class="fa fa-phone" aria-hidden="true"></i></li>
+				<li>
+					<span><a href="mailto:katerine.trost@gmail.com">me@artemev.it</a></span><i class="fa fa-envelope"
+																							   aria-hidden="true"
+				></i></li>
+				<li><span>г. Пермь </span> <i class="fa fa-home" aria-hidden="true"></i></li>
+			</ul>
+		</section>
+		<section class="languages">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Языки</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<ul>
+				<li>
+					<span>Русский</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>Английский</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+				</li>
+			</ul>
+		</section>
+		<section class="programs">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Основные навыки</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<ul>
+				<li>
+					<span>React.js</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+				</li>
 
-</header>
+				<li>
+					<span>Redux</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+				</li>
 
+				<li>
+					<span>HTML</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>CSS</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>JS, ES6(ES2015)</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>Node.js</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>GraphQL</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>D3</span>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle" aria-hidden="true"></i>
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+				</li>
+			</ul>
+		</section>
+		<section class="personal-skills">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Личные качества</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<ul>
+				<li>
+					<span>Ответственность</span>
+					<i class="fa fa-check" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>Исполнительность</span>
+					<i class="fa fa-check" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>Обучаемость</span>
+					<i class="fa fa-check" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>Пунктуальность</span>
+					<i class="fa fa-check" aria-hidden="true"></i>
+				</li>
+				<li>
+					<span>Стремление развиваться</span>
+					<i class="fa fa-check" aria-hidden="true"></i>
+				</li>
+			</ul>
+		</section>
+		<section class="copyright">
+			<div class="social">
+				<a href="https://www.instagram.com/leo.artemev" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="http://vk.com/alkamenos"  target="_blank"> <i class="fa fa-vk" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/alkamenos"  target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://github.com/alkamenos"  target="_blank"> <i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://t.me/alkamenos"  target="_blank"> <i class="fa fa-telegram" aria-hidden="true"></i></a>
+			</div>
+			<div class="legal">
+				2019 <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://aretemev.it">me@artemev.it</a>
+			</div>
 
-<div id="page">
-    <div id="content">
+		</section>
+	</section>
+	<section class="right">
+		<section class="mission">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Обо мне</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<p>Привет! Меня зовут Леонид я занимаюсь программированием с 16 лет, последние 9 лет во frontend разработке.
+				Мне нравится создавать приложения которые делают жизнь проще и помогают решать повседневные задачи.</p>
+			<p>Если коротко про образ жизни - активно катаюсь на сноуборде, хочу выйти на профессиональный уровень,
+				занимаюсь акробатической йогой, бегаю на длинные дистанции, немного катаюсь на скейте.</p>
+			<p>В своей работе я стараюсь использовать новейшие инструменты и компоненты, что позволяет сделать код более
+				простым и легко поддерживаемым. Работаю над классным проектом в Heaven11, в свободное время пишу свой
+				небольшой проект на <b>Node.js+GraphQL+React+Relay</b>.
+				<br/> Разбираюсь с <b>Server side rendering</b> и <b>React Native</b></p>
+			<p>Если у вас вам нужен ответственный программист, которого не пугают сложные задачи, напишите мне -
+				<a href="mailto:me@artemev.it">me@artemev.it</a></p>
+		</section>
 
-        <article id="home">
-            <img src="./static/images/photo.jpg">
+		<section class="work-history">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Опыт работы</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<div class="job">02.2017 - present<b> Heaven11</b> <br><i>Software engineer (React, Redux, ES6, ES7,
+				Saga.js, Reselect, Immutable)</i></div>
+			<div class="job">05.2016 - 02.2017<b> Roundme.com</b> <br><i>Frontend engineer (React, Redux)</i></div>
+			<div class="job">11.2015 - 04.2016<b> Yota</b> <br><i>Fullstack engineer (Node.js, Angular, Typescript,
+				Canvas)</i></div>
+			<div class="job">06.2013 - 11.2015<b> Realtimeboard.com</b> <br><i>Senior software engineer (HTML5, Сanvas,
+				AngularJS, PIXI JS, OpenTok, WebRTC, ActionScript, TypeScript, Maven)</i></div>
+			<div class="job">01.2013 - 06.2013<b> MART Online</b> <br><i>Fullstack engineer (Python, Django)</i></div>
+			<div class="job">10.2011 - 03.2013<b> Sociality</b> <br><i>Software engineer (ActionScript, JS, Flash)</i>
+			</div>
+			<div class="job">01.2010 - 08.2011<b> ЗАО С-Лидер</b> <br><i>Software engineer (PLСs, Industrial
+				automation)</i></div>
+			<div class="job">04.2007 - 12.2007<b> Dynamix Software</b> <br><i>Junior software engineer (Web, RIA)</i>
+			</div>
+			<div class="job">01.2004 - 09.2003<b> ООО Синергия-Лидер</b> <br><i>Software engineer (DevOps, Web, 1C)</i>
+			</div>
+			<div class="job">06.2003 - 08.2003<b> ООО Синергия-Лидер</b> <br><i>Электромонтажник 3-го разряда
+				(подработка на летних каникулах)</i></div>
+			<div class="job">07.2002 - 08.2002<b> ООО Синергия-Лидер</b> <br><i>Электромонтажник (подработка на летних
+				каникулах)</i></div>
 
-            <h3>Привет</h3>
-            <br class="clear">
+		</section>
+		<section class="skills">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Профессиональные навыки</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<div>
+				<p><b>Frontend:</b>
+					React
+					Redux
+					Angular
+					Angular Material
+					PIXI.js
+					D3.js
+					Relay
+				</p>
+				<p>
+					<b>Backend:</b>
 
-            <p> Меня зовут Леонид, я Front-end разработчик. Свою первую программу я написал в 14 лет, это был простой
-                код
-                написанный на QBasic, но уже тогда мне стало ясно чем я хочу заниматься в своей жизни. К настоящему
-                времени
-                я уже успел написать множество программ на разных языках, таких как C, C++, Java, Assembler, Pascal,
-                Visual
-                Basic, VBA хорошо познакомился с популярным тогда WinAPI и даже успел позаниматься 3d играми.</p>
-        </article>
+					Node.js
+					Express
+					REST
+					WebSockets
+					GraphQl
+				</p>
+				<p>Babel, Canvas, Enzyme, ESLint, Flux, Git, Grunt, Gulp, i18n (react-intl, format.js), immutable.js,
+					Jasmine, Jest, Karma, Mocha, Moment.js, MongoDB, react-router, reselect.js, Rx.js, Saga.js,
+					react-touch, WebGL, async-await, Webpack, ES6 (ES2015), ES7, css-modules, styled-components, BEM</p>
+			</div>
+		</section>
 
-        <article id="about">
-            <h3>Обо мне</h3>
-            <br class="clear">
+		<section class="education">
+			<div class="section-header">
+				<div class="section-header__bullet"><i class="fa fa-circle" aria-hidden="true"></i></div>
+				<h3 class="section-header__text">Образование</h3>
+				<div class="section-header__line"></div>
+			</div>
+			<div>2007-2009 <b>Неоконченное высшее</b></div>
+			<div>
+				<i>ПГТИ, Пермь</i>
+				<br/>
+				Экономика и управление
+			</div>
 
-            <p>В настоящее время я живу в Перми. Летом люблю кататься на велосипеде, а этой зимой планирую освоить
-                сноуборд. Также я несколько раз в неделю занимаюсь танцами и посещаю тренажерный зал, что бы всегда быть
-                в хорошей физической форме. В свободное время я читаю книги, статьи и смотрю полезные для меня
-                видеоуроки, для того что-бы быстрее выполнять свою работу. Активно изучаю английский язык и планирую
-                начать изучать французский и испанский.</p>
-        </article>
-
-        <article id="skills">
-            <h3>Навыки</h3>
-            <br class="clear">
-
-            <div class="content">
-                <ul>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>HTML5 / CSS3</li>
-                    <li>ActionScript 3</li>
-                    <li>AngularJS</li>
-                    <li>NodeJS</li>
-                    <li>Bootstrap</li>
-                    <li>LESS</li>
-                    <li>Maven</li>
-                    <li>Git</li>
-                    <li>Grunt</li>
-                </ul>
-            </div>
-        </article>
-        <article id="experience">
-            <h3>Опыт</h3>
-            <br class="clear">
-
-            <div class="content">
-                <ul>
-                    <li>
-                        <a href="http://realtimeboard.com">Realtimeboard.com</a>
-                        <br class="clear">
-
-                        <p>2013 - 2015</p>
-
-                        <p>Старший разработчик</p>
-
-                        <p class="description">HTML, Сanvas, AngularJS, PIXI JS, OpenTok, ActionScript, TypeScript, Maven</p>
-                        <p class="description">Сделал векторный экспорт (canvas => SVG), видеочат, систему презентаций, некоторые ключевые инструменты и другое. </p>
-                    </li>
-                    <li>
-                        <a href="">MART-Online</a>
-                        <br class="clear">
-
-                        <p>2012 - 2013</p>
-
-                        <p>Старший разработчик</p>
-                        <p class="description">Проектирование и разработка онлайн каталога товаров и услуг (Python, Django, Redis, Twitter Bootstrap). + Приложение для ВКонтакте (AS3 + PHP).</p>
-
-                    </li>
-                    <li>
-                        <a href="http://sociality.pro">Sociality</a>
-                        <br class="clear">
-
-                        <p>2011 - 2012</p>
-
-                        <p>Flash-программист</p>
-                        <p class="description">Разработка приложенний для социальных сетей (ActionScript 3)</p>
-                    </li>
-                    <li>
-                        <a href="http://sinlid.ru">Синергия-Лидер</a>
-                        <br class="clear">
-
-                        <p>2010 - 2011</p>
-
-                        <p>Инженер-программист</p>
-                        <p class="description">Разработка ПО для микроконтроллеров, ОВЕН, DirectLogic, Koyo Click и других.</p>
-                    </li>
-                </ul>
-            </div>
-        </article>
-        <article id="contacts">
-            <h3>Связь со мной</h3>
-            <br class="clear">
-
-            <div class="content">
-                <a href="https://www.facebook.com/alkamenos"><i class="icon-facebook-squared"></i></a>
-                <a href="https://github.com/alkamenos"><i class="icon-github-squared"></i></a>
-                <a href="https://twitter.com/alkamenos"><i class="icon-twitter-squared"></i></a>
-                <a href="http://vk.com/alkamenos"><i class="icon-vkontakte"></i></a>
-                <a href="http://linkedin.com/in/leonidartemev"><i class="icon-linkedin-squared"></i></a>
-
-            </div>
-
-        </article>
-
-    </div>
-</div>
-<footer>
-    2015 (c) Leonid Artemev
-</footer>
-
+			<div>2000-2004 <b>Среднее специальное</b></div>
+			<div>
+				<i>Профессиональный лицей 1, Пермь</i>
+				<br/>
+				Программирование
+			</div>
+		</section>
+	</section>
+</main>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter33424413 = new Ya.Metrika({
-                    id:33424413,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter33424413 = new Ya.Metrika({
+					id:33424413,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true
+				});
+			} catch(e) { }
+		});
 
-        var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/33424413" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
-
 </html>
