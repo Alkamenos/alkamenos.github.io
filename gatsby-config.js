@@ -34,7 +34,7 @@ module.exports = {
         start_url: "/",
         background_color: "#1a202c",
         theme_color: "#214ECF",
-        description: `Hello ! I am Leonid Artemev, Front-end/React Developer. I design and develop responsive, optimized and efficient websites.`,
+        description: `Hello ! I am Leonid Artemev, Front-end/React Developer. I develop responsive, optimized and efficient websites.`,
         lang: `en`,
         localize: [
           {

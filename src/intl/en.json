@@ -1,5 +1,5 @@
 {
-  "title": "Leonid Artemev • Visual Designer & Front-end Developer",
+  "title": "Leonid Artemev • Front-end Developer",
   "description": "Hello! I am Leonid Artemev, Front-end Developer. I develop responsive, optimized and efficient websites.",
   "author": "Leonid Artemev",
   "pages": {
@@ -15,7 +15,7 @@
   "hero": {
 	"job_dev": "Front-end Developer",
 	"job_hi": "Hello! I'm",
-	"job_description": "I design and develop responsive, optimized and efficient websites.",
+	"job_description": "I develop responsive, optimized and efficient websites.",
 	"job_availability": "Currently available for hire."
   },
   "stack": {
