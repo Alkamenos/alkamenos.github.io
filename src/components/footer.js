@@ -37,8 +37,8 @@ const Footer = () => {
         {` `}
         <br />
         <FormattedMessage id="footer.hosted" />{" "}
-        <a className="light dark" href="https://www.netlify.com">
-          Netlify
+        <a className="light dark" href="https://pages.github.com/">
+          GitHub Pages
         </a>
       </p>
       <div className="flex justify-center mt-8">
