@@ -46,7 +46,7 @@
     "start": "npm run develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/Alkamenos/alkamenos.github.io.git",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
     "build:svg": "svgr -d src/svg/ src/components/"
   },
   "repository": {
