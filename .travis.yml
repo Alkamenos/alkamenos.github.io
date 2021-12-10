@@ -9,4 +9,4 @@ deploy:
   script: cd docs/ && npm install && npm run deploy
   skip_cleanup: true
   on:
-    branch: master
+    branch: main
