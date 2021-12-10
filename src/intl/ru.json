@@ -1,0 +1,45 @@
+{
+  "title": "Леонид Артемьев • Front-end разработчик",
+  "description": "Привет! Я Леонид Артемьев, Front-end/React разработчик. Я разрабатываю адаптивные, оптимизированные и эффективные веб-сайты.",
+  "author": "Леонид Артемьев",
+  "pages": {
+	"index": "Главная",
+	"404": "Ошибка 404"
+  },
+  "nav": {
+	"work": "Портфолио",
+	"about": "Обо мне",
+	"contact": "Контакты"
+  },
+  "hero": {
+	"job_dev": "Front-end разработчик",
+	"job_hi": "Привет! Я",
+	"job_description": "Я разрабатываю адаптивные, оптимизированные и эффективные веб-сайты.",
+	"job_availability": "Ищу работу"
+  },
+  "stack": {
+	"title": "Стек технологий",
+	"desc": "С чем я работаю или работал недавно"
+  },
+  "footer": {
+	"socialconnect": "Let's connect!",
+	"info": "Build with",
+	"powered": "Powered by",
+	"hosted": "Hosted by",
+	"back_to_top": "Наверх"
+  },
+  "social": {
+	"email": "Напишите мне"
+  },
+  "notfound": {
+	"header": "Ошибка 404",
+	"description": "Что-то пошло не так :("
+  },
+  "global": {
+	"backtohome": "Главная",
+	"sendMail": "Контакты",
+	"downloadResume": "Мое резюме",
+	"downloadResume2": "Скачать резюме",
+	"resume": "https://outgoing-puppet-327.notion.site/0a7e66530d67494095e05a14aab5a841"
+  }
+}

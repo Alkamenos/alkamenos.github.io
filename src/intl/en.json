@@ -1,0 +1,49 @@
+{
+  "title": "Leonid Artemev • Visual Designer & Front-end Developer",
+  "description": "Hello! I am Leonid Artemev, Front-end Developer. I develop responsive, optimized and efficient websites.",
+  "author": "Leonid Artemev",
+  "pages": {
+	"index": "Home",
+	"404": "Error 404"
+  },
+  "nav": {
+	"work": "Work",
+	"services": "Services",
+	"about": "About",
+	"contact": "Contact"
+  },
+  "hero": {
+	"job_dev": "Front-end Developer",
+	"job_hi": "Hello! I'm",
+	"job_description": "I design and develop responsive, optimized and efficient websites.",
+	"job_availability": "Currently available for hire."
+  },
+  "stack": {
+	"title": "My actual stack",
+	"desc": "Here's the stack I'm currently working with etc.."
+  },
+  "footer": {
+	"socialconnect": "Let's connect!",
+	"info": "Build with",
+	"powered": "Powered by",
+	"hosted": "Hosted by",
+	"back_to_top": "Back to top"
+  },
+  "social": {
+	"twitter": "Go to my Twitter profile",
+	"github": "Go to my GitHub profile",
+	"linkedin": "Go to my LinkedIn profile",
+	"email": "Send a mail"
+  },
+  "notfound": {
+	"header": "Error 404",
+	"description": "Unfortunately, the page you are looking for does not exist :("
+  },
+  "global": {
+	"backtohome": "Back to Home",
+	"sendMail": "Get in touch",
+	"downloadResume": "My CV",
+	"downloadResume2": "Download my CV",
+	"resume": "https://outgoing-puppet-327.notion.site/0a7e66530d67494095e05a14aab5a841"
+  }
+}
